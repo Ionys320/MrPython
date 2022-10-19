@@ -211,10 +211,10 @@ class Console:
         """ Set the colors for the specific tags """
         self.output_console.tag_config('run', foreground='green')
         self.output_console.tag_config('error', foreground='red')
-        self.output_console.tag_config('normal', foreground='black')
+        self.output_console.tag_config('normal', foreground='white')
         self.output_console.tag_config('warning', foreground='orange')
         self.output_console.tag_config('info', foreground='brown')
-        self.output_console.tag_config('stdout', foreground='gray')
+        self.output_console.tag_config('stdout', foreground='white')
 
     def reset_output(self):
         """ Clear all the output console """

@@ -1,6 +1,6 @@
 import re
 import sys
-from collections import Mapping
+from collections.abc import Mapping
 from functools import partial
 
 # Reason last stmt is continued (or C_NONE if it's not).
