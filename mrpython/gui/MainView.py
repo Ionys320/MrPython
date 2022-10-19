@@ -52,6 +52,7 @@ class MainView:
 
         # 3) console (with output and input)
         self.create_console(pw, self.view)
+        self.console.output_console.configure(background="black")
         self.editor_widget.console = self.console # XXX: a little bit hacky...
 
         pw.add(self.console.frame_output)
